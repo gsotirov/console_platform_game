@@ -16,6 +16,11 @@ namespace ConsoleGame
         }
     }
 
+    class SceneData
+    {
+        public static int[,] Grid { get; set; }
+    }
+
     public class Size
     {
         public int width;
@@ -34,7 +39,7 @@ namespace ConsoleGame
 
         public GameSettings()
         {
-            size = new Size(20, 10);
+            size = new Size(100, 0);
         }
     }
 }

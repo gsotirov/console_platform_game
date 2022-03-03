@@ -8,9 +8,9 @@ namespace ConsoleGame.core
         public Player()
         {
             texture = new ConsoleTexture(new string[,] {
-                { "  ", "@", "  " },
-                { " ", "@@@", " " },
-                { "@ ", "@", " @" },
+                { " ", "@", " " },
+                { "@", "@", "@" },
+                { "@", "@", "@" },
             });
         }
 
@@ -30,6 +30,21 @@ namespace ConsoleGame.core
             {
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
+                switch (keyInfo.Key)
+                {
+                    case ConsoleKey.RightArrow:
+                        transform.position.x++;
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        transform.position.x--;
+                        break;
+                    case ConsoleKey.UpArrow:
+                        transform.position.y--;
+                        break;
+                    case ConsoleKey.DownArrow:
+                        transform.position.y++;
+                        break;
+                }
                 if (keyInfo.Key == ConsoleKey.LeftArrow)
                 {
                     transform.position.x = transform.position.x - 1;
@@ -39,6 +54,7 @@ namespace ConsoleGame.core
                     transform.position.x = transform.position.x + 1;
                 }
             }
+
         }
 
         public override void Render()

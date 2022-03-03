@@ -19,26 +19,12 @@ namespace ConsoleGame.core
 
         public void Render(TimeSpan time)
         {
-            //Reset();
-
             Console.Clear();
 
-            foreach(GameObject gameObject in gameObjects)
+            foreach (GameObject gameObject in gameObjects)
             {
                 gameObject.OnUpdate(time);
                 gameObject.Render();
-            }
-        }
-
-        void Reset()
-        {
-            for (int i = 0; i < Console.WindowWidth; i++)
-            {
-                for (int j = 0; j < Console.WindowHeight; j++)
-                {
-                    Console.SetCursorPosition(i, j);
-                    Console.Write(" ");
-                }
             }
         }
     }

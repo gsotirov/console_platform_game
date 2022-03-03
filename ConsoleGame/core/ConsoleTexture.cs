@@ -11,18 +11,15 @@ namespace ConsoleGame.core
             this.textureMatrix = textureMatrix;
         }
 
-        public void Render(Position startPosition)
+        public void Render(Position position)
         {
             for (int row = 0; row < textureMatrix.GetLength(0); row++)
             {
-                Console.SetCursorPosition(startPosition.x, startPosition.y + row);
-
                 for (int col = 0; col < textureMatrix.GetLength(1); col++)
                 {
+                    Console.SetCursorPosition(position.x + col, position.y + row);
                     Console.Write(textureMatrix[row, col]);
                 }
-
-                Console.WriteLine();
             }
         }
     }
