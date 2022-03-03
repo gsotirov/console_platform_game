@@ -1,0 +1,13 @@
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.csproj.AssemblyReference.cache
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.AssemblyInfoInputs.cache
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.AssemblyInfo.cs
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.csproj.CoreCompileInputs.cache
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/bin/Debug/netcoreapp3.1/ConsoleGame.deps.json
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/bin/Debug/netcoreapp3.1/ConsoleGame.runtimeconfig.json
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/bin/Debug/netcoreapp3.1/ConsoleGame.runtimeconfig.dev.json
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/bin/Debug/netcoreapp3.1/ConsoleGame.dll
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/bin/Debug/netcoreapp3.1/ConsoleGame.pdb
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.dll
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.pdb
+/Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.genruntimeconfig.cache
