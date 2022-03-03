@@ -11,6 +11,8 @@ namespace ConsoleGame
 
             Game game = new Game(settings, renderer);
             GameLoop loop = new GameLoop(game, renderer);
+
+            loop.Start();
         }
     }
 

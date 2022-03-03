@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/Cortez/.dotnet/store/|arch|/|tfm|",
-      "/Users/Cortez/.nuget/packages"
+      "C:\\Users\\gsoti\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gsoti\\.nuget\\packages"
     ]
   }
 }

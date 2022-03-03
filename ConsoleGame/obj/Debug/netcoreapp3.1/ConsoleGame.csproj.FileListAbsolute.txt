@@ -11,3 +11,17 @@
 /Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.dll
 /Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.pdb
 /Users/Cortez/Projects/ConsoleGame/ConsoleGame/obj/Debug/netcoreapp3.1/ConsoleGame.genruntimeconfig.cache
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.exe
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.deps.json
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.runtimeconfig.json
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.runtimeconfig.dev.json
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.dll
+E:\CSharp\games\console_platform_game\ConsoleGame\bin\Debug\netcoreapp3.1\ConsoleGame.pdb
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.csproj.AssemblyReference.cache
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.AssemblyInfoInputs.cache
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.AssemblyInfo.cs
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.csproj.CoreCompileInputs.cache
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.dll
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.pdb
+E:\CSharp\games\console_platform_game\ConsoleGame\obj\Debug\netcoreapp3.1\ConsoleGame.genruntimeconfig.cache
