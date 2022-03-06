@@ -24,18 +24,14 @@ namespace ConsoleGame.core
 
         private void AddPlayer()
         {
-            GameObject player = CreateGameObject<Player>();
+            Player player = GameObjectFactory.Instance.Instantiate<Player>();
+
+            player.OnShoot += OnPlayerShoot;
         }
 
-        GameObject CreateGameObject<T>() where T : GameObject
+        void OnPlayerShoot(Transform startPos, Position direction)
         {
-            GameObject obj = Activator.CreateInstance<T>();
-
-            obj.OnCreated();
-
-            renderer.RegisterGameObject(obj);
-
-            return obj;
+            GameObjectFactory.Instance.Instantiate<Rocket>();
         }
     }
 }

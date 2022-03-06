@@ -8,7 +8,4 @@
   <ItemGroup>
     <None Remove="core\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="core\" />
-  </ItemGroup>
 </Project>

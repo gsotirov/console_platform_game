@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace ConsoleGame.core
 {
     public interface IGameObject

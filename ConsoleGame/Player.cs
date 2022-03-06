@@ -1,9 +1,17 @@
 ﻿using System;
 namespace ConsoleGame.core
 {
+    public class PlayerShootData
+    {
+        public Transform startPos { get; set; }
+        public Position direction { get; set; }
+    }
+
     public class Player : GameObject
     {
         ConsoleTexture texture;
+
+        public Action<Transform, Position> OnShoot { get; internal set; }
 
         public Player()
         {
@@ -53,6 +61,10 @@ namespace ConsoleGame.core
                 {
                     transform.position.x = transform.position.x + 1;
                 }
+                else if (keyInfo.Key == ConsoleKey.Spacebar)
+                {
+                    OnShoot?.Invoke(transform, new Position(1, 0, 0));
+                }
             }
 
         }
@@ -60,6 +72,11 @@ namespace ConsoleGame.core
         public override void Render()
         {
             texture.Render(transform.position);
+        }
+
+        public void  Shoot()
+        {
+
         }
     }
 }

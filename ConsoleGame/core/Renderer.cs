@@ -1,28 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace ConsoleGame.core
 {
     public class Renderer
     {
-        List<GameObject> gameObjects = new List<GameObject>();
-
-        public void RegisterGameObject(GameObject gameObject)
-        {
-            gameObjects.Add(gameObject);
-        }
-
-        public void UnregisterGameObject(GameObject gameObject)
-        {
-            gameObjects.Remove(gameObject);
-        }
-
         public void Render(TimeSpan time)
         {
             Console.Clear();
 
-            foreach (GameObject gameObject in gameObjects)
+            for (int i = 0; i < GameObjectFactory.Instance.GameObjects.Count; i++)
             {
+                GameObject gameObject = GameObjectFactory.Instance.GameObjects[i];
+
                 gameObject.OnUpdate(time);
                 gameObject.Render();
             }
